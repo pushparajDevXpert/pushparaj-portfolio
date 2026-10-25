@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0d101d">
+  <meta name="description"
+    content="Pushparaj Abhijeet Supekar — Full-Stack Python Developer exploring AI and Data Science. Animated personal portfolio.">
+  <title>Pushparaj | Creative Python & AI Portfolio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body data-theme="dark">
+  <div class="noise" aria-hidden="true"></div>
+  <div class="site-progress" id="site-progress" aria-hidden="true"></div>
+  <nav class="pill-nav" aria-label="Main navigation">
+    <a href="#home" class="nav-logo" aria-label="Pushparaj portfolio home">Portfolio<span
+        class="orange-dot">.</span></a>
+    <div class="nav-links" id="nav-links">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Switch to light theme" title="Toggle theme"
+        type="button"><span class="theme-sun">☀</span><span class="theme-moon">☾</span></button>
+      <a href="#contact" class="nav-hire">Hire Me <span>↗</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-controls="nav-links"
+        aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero shell" aria-labelledby="hero-heading">
+      <div class="hero-grid">
+        <div class="hero-copy rise">
+          <!-- <div class="hello-label"><span class="hello-dot">
+
+          </span> Hey, welcome to my digital space <span>👋</span>
+         </div> -->
+          <div class="hero-socials"><a id="hero-github" href="https://github.com/pushparajDevXpert" target="_blank"
+              rel="noopener noreferrer" aria-label="Visit GitHub">GH</a><a id="hero-linkedin" href="#contact"
+              aria-label="LinkedIn">in</a><span class="social-line"></span><span>LET'S CONNECT</span></div>
+          <h1 id="hero-heading">Hi, I'm <span class="orange-text" id="hero-first-name">Pushparaj.</span><br><span
+              class="hero-heading-second">I build <em>ideas</em> into reality.</span></h1>
+          <div class="typing-line"><span class="typing-chevron">&gt;_</span><span id="typing-role">Full-Stack Python
+              Developer</span><span class="typing-caret" aria-hidden="true"></span></div>
+          <p class="hero-desc" id="hero-description">I connect Python backends, modern web experiences, and data-driven
+            intelligence to build useful digital products.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#projects">See What I've Built
+              <span>↗</span></a><button class="btn btn-outline" id="hero-resume-btn" type="button">My Resume
+              <span>↓</span></button></div>
+          <div class="hero-mini-stats">
+            <div><strong>04</strong><span>FOCUS AREAS</span></div><i></i>
+            <div><strong>Python</strong><span>BACKEND FIRST</span></div><i></i>
+            <div><strong>AI</strong><span>CURIOUS MIND</span></div>
+          </div>
+        </div>
+        <div class="hero-visual rise" aria-label="Animated cartoon developer holding a laptop">
+          <div class="hero-orb" aria-hidden="true"></div>
+          <div class="hero-dotted-orbit" aria-hidden="true"></div>
+          <span class="deco sparkle sparkle-one" aria-hidden="true">✦</span><span class="deco sparkle sparkle-two"
+            aria-hidden="true">✳</span><span class="deco sparkle sparkle-three" aria-hidden="true">✦</span>
+          <span class="deco orbit-chip chip-py" aria-hidden="true">🐍 <b>Python</b></span>
+          <span class="deco orbit-chip chip-ai" aria-hidden="true">✦ <b>AI</b></span>
+          <span class="deco orbit-chip chip-react" aria-hidden="true">⚛ <b>React</b></span>
+          <div class="hi-sticker" id="hi-sticker" aria-hidden="true">Hi!<span>✳</span></div>
+          <svg class="developer-svg" viewBox="0 0 590 570" role="img"
+            aria-label="Illustrated smiling developer in an orange hoodie holding a laptop"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="hoodie" x1="0" y1="0" x2="1" y2="1">
+                <stop stop-color="#ffae3f" />
+                <stop offset=".5" stop-color="#fa8114" />
+                <stop offset="1" stop-color="#cb4c08" />
+              </linearGradient>
+              <linearGradient id="hair" x1=".2" y1="0" x2=".8" y2="1">
+                <stop stop-color="#43302e" />
+                <stop offset="1" stop-color="#161722" />
+              </linearGradient>
+              <linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1">
+                <stop stop-color="#ffd3a6" />
+                <stop offset="1" stop-color="#de9577" />
+              </linearGradient>
+              <linearGradient id="laptop" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#35445d" />
+                <stop offset="1" stop-color="#111827" />
+              </linearGradient>
+              <filter id="softshadow" x="-25%" y="-25%" width="150%" height="150%">
+                <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#11131e" flood-opacity=".33" />
+              </filter>
+            </defs>
+            <ellipse cx="295" cy="534" rx="217" ry="24" fill="#181222" opacity=".21" />
+            <g id="developer-character" filter="url(#softshadow)">
+              <!-- waving arm -->
+              <g class="wave-arm" transform="translate(389 309)">
+                <path d="M0 53 Q33 36 56 7 L83 14 Q73 71 27 103Z" fill="url(#hoodie)" stroke="#7d3b26"
+                  stroke-width="7" />
+                <path
+                  d="M60 16 Q46 -4 51 -26 Q48 -51 58 -51 Q69 -49 70 -29 L72 -69 Q74 -84 85 -79 Q95 -76 93 -62 L92 -41 Q108 -65 117 -60 Q131 -50 109 -24 Q135 -41 142 -29 Q145 -19 122 -5 Q134 -5 131 5 Q123 21 93 31 L86 50Z"
+                  fill="url(#skin)" stroke="#965b4d" stroke-width="6" stroke-linejoin="round" />
+              </g>
+              <!-- torso -->
+              <path d="M136 446 Q138 341 205 313 Q240 302 289 310 Q350 303 398 342 Q451 387 461 507 L423 541 L161 541Z"
+                fill="url(#hoodie)" stroke="#8b3e2e" stroke-width="8" />
+              <path d="M204 327 Q246 379 302 379 Q343 378 375 333 Q350 318 330 312 L261 304Z" fill="#e66b10"
+                stroke="#a34524" stroke-width="6" />
+              <path d="M247 361 L240 425 M337 359 L350 429" fill="none" stroke="#f7d8a7" stroke-width="8"
+                stroke-linecap="round" />
+              <path d="M222 459 Q292 442 363 457 L349 503 L239 503Z" fill="#db6813" opacity=".56" />
+              <!-- neck -->
+              <path d="M249 282 L249 343 Q296 369 339 335 L331 278Z" fill="url(#skin)" stroke="#995c52"
+                stroke-width="6" />
+              <!-- ears -->
+              <ellipse cx="182" cy="229" rx="26" ry="40" fill="url(#skin)" stroke="#995e50" stroke-width="6" />
+              <ellipse cx="394" cy="229" rx="26" ry="40" fill="url(#skin)" stroke="#995e50" stroke-width="6" />
+              <!-- head -->
+              <path d="M189 155 Q203 104 274 95 Q350 89 387 157 L387 244 Q378 321 298 329 Q215 331 190 254Z"
+                fill="url(#skin)" stroke="#975b50" stroke-width="7" />
+              <!-- hair, fluffy locks -->
+              <path
+                d="M183 214 Q148 162 176 120 Q166 76 219 64 Q241 23 288 56 Q316 17 346 52 Q402 41 414 97 Q454 124 404 193 L389 204 Q388 159 369 144 Q335 147 319 129 Q268 153 239 137 Q209 178 188 173Z"
+                fill="url(#hair)" stroke="#171722" stroke-width="8" />
+              <path d="M195 135 Q207 92 242 92 M244 116 Q250 65 298 77 M306 109 Q339 62 377 101" fill="none"
+                stroke="#756058" stroke-width="12" stroke-linecap="round" opacity=".65" />
+              <!-- eyebrows -->
+              <path d="M218 200 Q244 190 262 201 M317 201 Q345 189 367 202" stroke="#463130" stroke-width="9"
+                stroke-linecap="round" fill="none" />
+              <!-- glasses -->
+              <g fill="#fff" fill-opacity=".16" stroke="#242532" stroke-width="9">
+                <rect x="205" y="204" width="70" height="51" rx="21" />
+                <rect x="307" y="204" width="70" height="51" rx="21" />
+              </g>
+              <path d="M276 219 Q291 210 306 219 M204 223 L187 215 M377 222 L396 215" stroke="#242532" stroke-width="8"
+                fill="none" stroke-linecap="round" />
+              <g class="developer-eyes">
+                <ellipse cx="241" cy="228" rx="7" ry="10" fill="#2d2531" />
+                <ellipse cx="340" cy="228" rx="7" ry="10" fill="#2d2531" />
+                <ellipse cx="244" cy="224" rx="2.5" ry="3" fill="white" />
+                <ellipse cx="343" cy="224" rx="2.5" ry="3" fill="white" />
+              </g>
+              <path d="M290 235 Q281 265 299 266" stroke="#bb7969" stroke-width="5" stroke-linecap="round"
+                fill="none" />
+              <path d="M266 284 Q294 303 327 284" stroke="#783d3e" stroke-width="6" stroke-linecap="round"
+                fill="none" />
+              <circle cx="210" cy="270" r="15" fill="#ed937c" opacity=".22" />
+              <circle cx="365" cy="270" r="15" fill="#ed937c" opacity=".22" />
+              <!-- left arm / glove -->
+              <path d="M184 375 Q146 395 131 450 Q128 479 166 489 L229 466 Q224 430 202 410Z" fill="url(#hoodie)"
+                stroke="#8b3e2e" stroke-width="7" />
+              <ellipse cx="231" cy="469" rx="29" ry="19" transform="rotate(-12 231 469)" fill="url(#skin)"
+                stroke="#9b5a4c" stroke-width="5" />
+              <!-- laptop -->
+              <g class="developer-laptop">
+                <path
+                  d="M178 400 L418 400 Q430 400 428 418 L406 510 Q404 524 388 524 L207 524 Q191 524 188 510 L165 422 Q162 403 178 400Z"
+                  fill="url(#laptop)" stroke="#131d2b" stroke-width="8" />
+                <path d="M186 418 L408 418 L384 504 L209 504Z" fill="#36475f" opacity=".66" />
+                <circle cx="297" cy="462" r="24" fill="#f79527" opacity=".91" />
+                <path d="M288 456 L278 463 L288 470 M306 456 L317 463 L306 470" stroke="#fff" stroke-width="5"
+                  stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                <path d="M155 524 L433 524 L444 538 Q441 547 421 548 L168 548 Q148 545 151 537Z" fill="#8c9aab"
+                  stroke="#293043" stroke-width="5" />
+              </g>
+            </g>
+          </svg>
+          <div class="hero-speech" id="hero-speech" aria-live="polite">Let's create something awesome! <span>✦</span>
+          </div>
+          <button class="wave-button" type="button" id="wave-button" aria-label="Make the cartoon developer wave">👋 Say
+            hi!</button>
+        </div>
+      </div>
+      <!-- <div class="scroll-cue"><span>SCROLL TO EXPLORE</span><span class="scroll-icon">↓</span></div> -->
+    </section>
+
+    <!-- <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>PYTHON DEVELOPMENT ✳ AI & MACHINE LEARNING ✳ WEB APPLICATIONS ✳ DATA SCIENCE ✳ CREATIVE PROBLEM SOLVING ✳ PYTHON DEVELOPMENT ✳ AI & MACHINE LEARNING ✳ WEB APPLICATIONS ✳ DATA SCIENCE ✳ CREATIVE PROBLEM SOLVING ✳</span></div></div>
+      -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>FULL_STACK PYTHON DEVELOPMENT
+          ✳ AI & MACHINE LEARNING
+          ✳ WEB APPLICATIONS
+          ✳ DATA SCIENCE
+          ✳ REACT JS DEVELOPMENT
+          ✳ PYTHON DEVELOPMENT
+          ✳ DJANGO DEVELOPMENT
+          ✳ MERN STACK DEVELOPMENT
+          ✳ MSQL DEVELOPMENT
+          *CREATIVE PROBLEM SOLVING ✳</span>
+      </div>
+    </div>
+
+    <section id="about" class="section shell about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <!-- <span class="eyebrow">01 / A LITTLE ABOUT ME</span> -->
+        <h2 id="about-title">Behind the <span class="orange-text">code.</span></h2>
+        <p>Curious mind. Creative hands. Always learning.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-art reveal">
+          <div class="about-art-inner">
+            <div class="code-window">
+              <div class="window-bar"><span></span><span></span><span></span><small>hello.py</small></div>
+              <pre><span class="c-purple">class</span> <span class="c-yellow">Developer</span>:
+  name = <span class="c-green">"Pushparaj"</span>
+  passion = [
+    <span class="c-green">"Python"</span>,
+    <span class="c-green">"AI"</span>,
+    <span class="c-green">"Building"</span>
+  ]
+  <span class="c-purple">def</span> <span class="c-yellow">mission</span>(self):
+    <span class="c-purple">return</span> <span class="c-green">"Make it happen!"</span></pre>
+            </div>
+            <div class="about-star">✳</div>
+            <div class="about-sticker">think<br>• create<br>• repeat</div>
+          </div>
+        </div>
+        <div class="about-text reveal"><span class="mini-label"> MORE THAN JUST CODE</span>
+          <h3>Curious by nature.<br><span>Creator by choice.</span></h3>
+          <!-- <p id="about-intro">I'm Pushparaj, a Full-Stack Python Developer exploring AI, Machine Learning and Data
+            Science.</p> -->
+          <p id="about-intro">
+            Hey, I'm Pushparaj — a Full-Stack Python Developer
+            who loves transforming ideas into meaningful
+            digital experiences. For me, coding isn't just
+            about solving problems; it's about creating
+            something useful, intuitive, and impactful.
+          </p>
+          <!-- <p id="about-body">I enjoy bringing together thoughtful frontend experiences, solid backend logic, and
+            intelligent tools.</p> -->
+          <p id="about-body">
+            With 6 months of hands-on internship experience,
+            I've worked with Python, Django, REST APIs,
+            MySQL, and responsive web development.
+
+            I enjoy connecting powerful backend logic with
+            clean frontend experiences, while exploring
+            AI, Machine Learning, and Data Science.
+          </p>
+          <!-- <div class="about-values"> 
+            <div><span>✦</span> Full-Stack Development</div>
+            <div><span>✦</span> Applied AI & Data</div>
+            <div><span>✦</span> Learning by Building</div>
+          </div>-->
+          <div class="about-values">
+            <div>
+              <span>✦</span> Building with Purpose
+            </div>
+            <div>
+              <span>✦</span> Learning Beyond Limits
+            </div>
+            <div>
+              <span>✦</span> Turning Ideas into Reality
+            </div>
+          </div>
+
+          <a class="btn btn-outline" href="#contact">Let's collaborate <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section" aria-labelledby="skills-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <!-- <span class="eyebrow">02 / WHAT'S IN MY TOOLBOX?</span> -->
+          <h2 id="skills-title">My <span class="orange-text">Skills.</span></h2>
+          <!-- <p>Technologies and areas featured in this editable developer portfolio.</p> -->
+          <p>
+            From crafting responsive interfaces to building powerful backends, these are the technologies I use to
+            transform ideas into real-world applications..
+          </p>
+        </div>
+        <div class="skills-grid" id="skills-grid"></div>
+        <!-- <div class="skills-note">Tool cards are customizable — update <code>site-data.json</code> to match your actual
+          experience.</div> -->
+      </div>
+    </section>
+
+    <section id="projects" class="section shell projects-section" aria-labelledby="projects-title">
+      <div class="section-heading reveal">
+        <!-- <span class="eyebrow">03 / THINGS TO EXPLORE</span> -->
+        <!-- <h2 id="projects-title">Selected <span class="orange-text">Projects.</span></h2> -->
+        <p>Real ideas. Real code. Real solutions. Explore the projects that define my development journey.</p>
+      </div>
+      <div class="project-grid" id="project-grid"></div>
+      <div class="center-actions"><a class="btn btn-outline" id="github-all" href="https://github.com/pushparajDevXpert"
+          target="_blank" rel="noopener noreferrer">Explore GitHub <span>↗</span></a></div>
+    </section>
+
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <!-- <span class="eyebrow">04 / SAY HELLO</span> -->
+          <h2 id="contact-title">Get in <span class="orange-text">Touch.</span></h2>
+          <p>Have an idea or opportunity? I'd love to hear about it.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-art reveal">
+            <div class="contact-envelope"><span class="mail-bubble">✉</span><span class="mail-notification">1</span>
+            </div>
+            <h3>Let's build something<br><span>great together!</span></h3>
+            <p>Open to discussing web development, AI ideas, and opportunities to collaborate.</p>
+            <div class="contact-socials"><a id="contact-github" href="https://github.com/pushparajDevXpert"
+                target="_blank" rel="noopener noreferrer">GitHub ↗</a><a id="contact-linkedin" href="#contact">LinkedIn
+                ↗</a></div>
+            <div class="resume-selector"><button type="button" id="resume-menu-toggle" aria-expanded="false"
+                aria-controls="resume-popup">RESUME <span>↗</span></button>
+              <div id="resume-popup" class="resume-popup" hidden><a id="resume-view" href="/resume.pdf" target="_blank"
+                  rel="noopener noreferrer"><i class="fa-regular fa-eye"></i> View Resume</a><a id="resume-download"
+                  href="/resume.pdf" download="Pushparaj_Supekar_Resume.pdf"><i class="fa-solid fa-download"></i>
+                  Download Resume</a>
+                <!-- <span class="resume-unavailable"id="resume-unavailable" hidden>Add <code>resume.pdf</code> to enable this.</span> -->
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contact-form" action="https://formspree.io/f/mpppqvgw">
+            <h3>Send a message <span>↗</span></h3>
+            <div class="field-row"><label>First name<input name="first" placeholder="First name"
+                  autocomplete="given-name" required maxlength="60"></label><label>Last name<input name="last"
+                  placeholder="Last name" autocomplete="family-name" maxlength="60"></label></div><label>Email
+              address<input name="email" type="email" placeholder="you@example.com" autocomplete="email" required
+                maxlength="120"></label><label>Your message<textarea name="message"
+                placeholder="Tell me about your idea..." required rows="5" maxlength="2500"></textarea></label><button
+              class="btn btn-primary contact-submit" type="submit">Send Email <span><i
+                  class="fa-regular fa-paper-plane"></i></span></button>
+            <p id="form-note" class="form-note" role="status" aria-live="polite">
+            </p>
+            <!-- <p class="form-note" id="form-note">Opens your email app with a prefilled message. No details are stored on
+              this website.</p> -->
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner"><a href="#home">Portfolio<span class="orange-dot">.</span></a>
+      <p>Built with curiosity &amp; a little bit of magic ✳</p><span>© <span id="year">2026</span> Pushparaj
+        Supekar</span>
+    </div>
+  </footer>
+
+  <button id="floating-chat" class="floating-chat" type="button" aria-label="Open AI portfolio assistant"
+    aria-expanded="false"><span class="floating-chat-icon">✳</span><span>Ask My AI</span><span
+      class="online-indicator"></span></button>
+  <div class="chat-scrim" id="chat-scrim" hidden></div>
+  <aside class="chat-panel" id="chat-panel" role="dialog" aria-modal="true" aria-labelledby="chat-heading"
+    aria-hidden="true" inert>
+    <header class="chat-top">
+      <div class="chat-bot-avatar">✳</div>
+      <div>
+        <h2 id="chat-heading">Portfolio AI</h2>
+        <p><span class="online-indicator"></span> <span id="assistant-status">Checking assistant...</span></p>
+      </div><button type="button" class="chat-close" id="chat-close" aria-label="Close assistant">×</button>
+    </header>
+    <div class="chat-messages" id="chat-messages" aria-live="polite">
+      <div class="chat-msg bot">
+        <div class="msg-avatar">✳</div>
+        <p>Hey there! 👋 I'm Pushparaj's portfolio guide. Ask me about the Python stack, sample projects, or how to get
+          in touch.</p>
+      </div>
+    </div>
+    <div class="chat-suggestions"><button type="button"
+        data-question="What Python technologies does this portfolio feature?">Python stack</button><button type="button"
+        data-question="Tell me about the sample projects.">Projects</button><button type="button"
+        data-question="How can I contact Pushparaj?">Contact</button></div>
+    <form class="chat-form" id="chat-form"><label class="sr-only" for="chat-input">Ask a question</label><input
+        id="chat-input" autocomplete="off" placeholder="Ask about this portfolio..." maxlength="500" required><button
+        type="submit" aria-label="Send message" id="chat-send">➤</button></form>
+    <p id="chat-disclaimer" class="chat-disclaimer">AI responses may make mistakes. Verify important details.</p>
+  </aside>
+</body>
+
+</html>

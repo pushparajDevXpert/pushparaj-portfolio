@@ -1,0 +1,125 @@
+{
+  "name": "Pushparaj Abhijeet Supekar",
+  "shortName": "Pushparaj",
+  "role": "Full-Stack Python Developer · AI / Data Science",
+  "headline": "Powered by Python, driven by curiosity, and built with purpose ",
+  "location": "India",
+  "availability": "Open to developer & AI opportunities",
+  "intro": "I’m Pushparaj — a Full-Stack Python Developer interested in AI, machine learning, and Data Science. I like transforming ideas into real-world web experiences, from the logic behind the API to the details people see on screen.",
+  "about": "My focus is where software engineering meets intelligent systems: clean Python services, responsive interfaces, meaningful data, and applied AI. The stack and example projects below are customizable, so the final portfolio can match my verified tools, experience, and results.",
+  "email": "pushparajs7568r@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/pushparaj-supekar/?isSelfProfile=true",
+  "github": "https://github.com/pushparajDevXpert",
+  "resumeUrl": "",
+  "liveUrl": "https://your-live-project.onrender.com",
+  "githubUrl": "https://github.com/pushparajDevXpert/your-project",
+  "focusAreas": [
+    {
+      "icon": "{ }",
+      "title": "Full-Stack Web Apps",
+      "description": "Interface-to-database workflows. Example stack: React, JavaScript, HTML/CSS, and Python web frameworks."
+    },
+    {
+      "icon": "⌁",
+      "title": "Python APIs & Backends",
+      "description": "REST APIs, business logic, authentication, and data services with FastAPI or Django."
+    },
+    {
+      "icon": "✳",
+      "title": "Applied AI & Machine Learning",
+      "description": "Explore ML pipelines, NLP, retrieval-augmented generation, and AI features that solve practical problems."
+    },
+    {
+      "icon": "▥",
+      "title": "Data Science & Analytics",
+      "description": "From SQL and Pandas to exploratory analysis, data visualization, and insights people can act on."
+    }
+  ],
+  "skills": [
+    "Python",
+    "FastAPI",
+    "Django",
+    "REST APIs",
+    "JavaScript",
+    "React",
+    "HTML / CSS",
+    "SQL",
+    "Git / GitHub",
+    "Pandas",
+    "NumPy",
+    "scikit-learn",
+    "Machine Learning",
+    "LLM Apps",
+    "Data Visualization"
+  ],
+  "projects": [
+    {
+      "number":"01",
+      "title": "My Python Web Application",
+      "description": "A modern web application built using Python.",
+      "tags": [
+        "Python",
+        "Django",
+        "React"
+      ],
+      "liveUrl": "https://your-live-project.com",
+      "githubUrl": "https://github.com/pushparajDevXpert/your-project"
+    },
+    {
+      "number":"02",
+      "title": "My Python Web Application",
+      "description": "A modern web application built using Python.",
+      "tags": [
+        "Python",
+        "Django",
+        "React"
+      ],
+      "liveUrl": "https://your-live-project.com",
+      "githubUrl": "https://github.com/pushparajDevXpert/your-project"
+    },
+    {
+      "number":"03",
+      "title": "My Python Web Application",
+      "description": "A modern web application built using Python.",
+      "tags": [
+        "Python",
+        "Django",
+        "React"
+      ],
+      "liveUrl": "https://your-live-project.com",
+      "githubUrl": "https://github.com/pushparajDevXpert/your-project"
+    },
+    {
+      "number":"04",
+      "title": "My Python Web Application",
+      "description": "A modern web application built using Python.",
+      "tags": [
+        "Python",
+        "Django",
+        "React"
+      ],
+      "liveUrl": "https://your-live-project.com",
+      "githubUrl": "https://github.com/pushparajDevXpert/your-project"
+    },
+    {
+      "number":"05",
+      "title": "My Python Web Application",
+      "description": "A modern web application built using Python.",
+      "tags": [
+        "Python",
+        "Djano",
+        "React"
+      ],
+      "liveUrl": "https://your-live-project.com",
+      "githubUrl": "https://github.com/pushparajDevXpert/your-project"
+    }
+  ],
+  "factsForAssistant": [
+    "Pushparaj identifies as a full-stack Python developer working with AI and Data Science.",
+    "This portfolio is a customized starter profile; technology chips indicate an example stack to verify and edit.",
+    "All cards labeled SAMPLE PROJECT are illustrative concepts, not verified completed projects.",
+    "No completed projects, employment history, certifications, personal email, or social profiles have been provided.",
+    "Do not claim that sample projects or technologies are verified past experience.",
+    "Visitors can use the contact section after Pushparaj provides actual contact links."
+  ]
+}

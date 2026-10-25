@@ -1,0 +1,11 @@
+{
+  "name": "animated-ai-engineer-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animated engineering portfolio with optional server-side Gemini or OpenAI assistant",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check app.js"
+  },
+  "engines": { "node": ">=18" }
+}

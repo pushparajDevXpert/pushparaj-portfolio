@@ -7,6 +7,20 @@
   <meta name="theme-color" content="#0d101d">
   <meta name="description"
     content="Pushparaj Abhijeet Supekar — Full-Stack Python Developer exploring AI and Data Science. Animated personal portfolio.">
+
+  <script>
+    const url = new URL(window.location.href);
+
+    if (url.searchParams.has("utm_source")) {
+      url.searchParams.delete("utm_source");
+      window.history.replaceState(
+        window.history.state,
+        "",
+        url.pathname + url.search + url.hash
+      );
+    }
+  </script>
+
   <title>Pushparaj | Creative Python & AI Portfolio</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
